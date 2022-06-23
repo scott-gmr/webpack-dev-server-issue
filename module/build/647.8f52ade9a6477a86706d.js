@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkexample_module=self.webpackChunkexample_module||[]).push([[647],{647:(e,l,u)=>{u.r(l),u.d(l,{default:()=>t});var a=u(407),n=u.n(a);const t=()=>n().createElement("div",null,n().createElement("h2",null,"Example Module"))}}]);
