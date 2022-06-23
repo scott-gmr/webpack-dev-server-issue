@@ -18,7 +18,7 @@ module.exports = {
     publicPath:
       process.env.NODE_ENV === "development"
         ? `http://localhost:${PORT}/`
-        : "CHANGE ME",
+        : "https://cdn.statically.io/gh/scott-gmr/webpack-dev-server-issue/main/module/build/",
     filename: "[name].[contenthash].js",
     clean: true,
   },

@@ -35,7 +35,9 @@ module.exports = {
       name: "Host",
       remotes: {
         ExampleModule: `ExampleModule@${
-          process.env.LOCAL_MODULE ? `http://localhost:3001` : "CHANGE_ME"
+          process.env.LOCAL_MODULE
+            ? `http://localhost:3001`
+            : "https://cdn.statically.io/gh/scott-gmr/webpack-dev-server-issue/main/module/build/"
         }/remoteEntry.js`,
       },
       shared: [
