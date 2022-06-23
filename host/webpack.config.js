@@ -37,7 +37,7 @@ module.exports = {
         ExampleModule: `ExampleModule@${
           process.env.LOCAL_MODULE
             ? `http://localhost:3001`
-            : "https://cdn.statically.io/gh/scott-gmr/webpack-dev-server-issue/main/module/build/"
+            : "https://cdn.statically.io/gh/scott-gmr/webpack-dev-server-issue/a690f8edbc93d7afc8590e84d70fd98c3424437b/module/build/"
         }/remoteEntry.js`,
       },
       shared: [
